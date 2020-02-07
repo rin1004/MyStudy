@@ -1,0 +1,24 @@
+## **엠보싱 필터링**  
+엠보싱 필터의 마스크는 필터 마스크의 대각선 방향으로 +1 또는 -1 값이 지정된다.  
+대각선 방향으로 픽셀 값이 급격하는 부분에서 결과 영상 픽셀 값이 0보다 훨씬 크거나 0보다 훨씬 작은 값을 가지게 된다.  
+-> 그러면 검정색이 되어 버려 입체감이 줄어든다. 따라서 결과 영상에 128을 더한다.  
+
+```  
+import cv2
+import numpy as np
+
+image = cv2.imread('test6.png')
+
+embossing = np.array([[1, 0, 0], [0, 0, 0], [0, 0, -1]]) #배열을 만듦
+
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+dst = cv2.filter2D(gray_image, -1, embossing) + 128
+
+cv2.imshow('emobossing', dst)
+cv2.waitKey()
+```  
+#cvtColor 
+#한 색상 공간에서 다른 색상 공간으로 이미지를 변환합니다.
+#Tip : BGR은 RGB 색상 채널을 의미합니다.
+![엠보싱](https://user-images.githubusercontent.com/59803206/74008707-e0abe200-49c4-11ea-846c-8243b5af1780.PNG)
