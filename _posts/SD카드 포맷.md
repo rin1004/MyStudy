@@ -1,0 +1,33 @@
+SD카드 포맷하기 (SD Card Formatter 프로그램 사용)
+============================================
+
+**SD Card Formatter는 SD Association (SDA)에서 만든 SD File System 사양을 준수하는 메모리 전용 포맷 프로그램으로 USB, SD, MicroSD등의 메모리를 포맷할때 사용합니다.**
+
+<https://www.sdcard.org/downloads/formatter/index.html>
+이 사이트에 들어가서 진행합니다.
+
+![운영체제](https://user-images.githubusercontent.com/59803206/89146895-10acfa00-d590-11ea-98eb-a4afbfd04db0.PNG)    
+
+자신이 사용하는 운영체제에 따라 **Window**또는 **Mac**을 선택합니다.    
+
+
+![ㄱㄱ](https://user-images.githubusercontent.com/59803206/89146943-3c2fe480-d590-11ea-931a-931a5956aeb1.PNG)    
+운영체제 선택 후, 다음화면으로 넘어가 아래로 쭉- 내리면 나오는 **Accept버튼**을 클릭합니다.  
+
+여기까지가 SD Card Formatter의 다운로드입니다.    
+
+다운로드가 끝나면 다운로드된 파일의 **압축을 풀고 설치**를 해주면 됩니다.  
+바탕화면에 새로운 아이콘이 만들어졌다면 설치가 잘 되었다는 뜻입니다.    
+
+![포맷화면](https://user-images.githubusercontent.com/59803206/89147467-ae54f900-d591-11ea-83b3-769e6bfff1c6.PNG)    
+바탕화면에 있는 아이콘을 클릭하면 아래와 같은 창이 나타납니다.  
+**Select card**에서는 포맷할 SD카드를 선택하면 됩니다. 찾는 SD카드가 없다면 Refresh를 클릭하여 찾으면 됩니다.  
+**Card information**은 SD카드의 정보를 나타냅니다.  
+**Formatting options**는 **Quick format(빠른 포맷)**과 **Overwrite format(일반 포맷)** , 두가지가 있으므로 선택하여 포맷이 가능합니다.  
+**Volume label**은 포멧할 카드의 이름을 말합이다.
+
+설정이 다 끝나고 우측 하단에 있는 format버튼을 눌러주면 아래와 같이 확인창이 뜹니다.(예 클릭)  
+![홧인](https://user-images.githubusercontent.com/59803206/89192406-4d541200-d5df-11ea-8fe9-dfac3136141d.png)    
+
+Formatting was successfully completed.라는 창이 뜬다면 포맷은 성공적으로 끝난 것입니다.  
+![완료](https://user-images.githubusercontent.com/59803206/89192416-50e79900-d5df-11ea-8501-01ead0a4a2c2.png)  
